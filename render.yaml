@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: harar-ras-hotel-menu
+    runtime: node
+    plan: starter
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/menu
+    disk:
+      name: harar-menu-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HARAR_DATA_DIR
+        value: /var/data
+      - key: HARAR_ADMIN_PASSWORD
+        generateValue: true
