@@ -1,0 +1,1510 @@
+{
+  "hotel": {
+    "nameEn": "Harar Ras Hotel",
+    "nameAm": "የሐረር ራስ ሆቴል",
+    "taglineEn": "In the heart of Harar Jugol",
+    "taglineAm": "በሐረር ጁጎል ውስጥ",
+    "addressEn": "Main Street / City Center, Harar, Ethiopia",
+    "addressAm": "ጁጎል፣ ሐረር፣ ኢትዮጵያ",
+    "phone": "+251 256 660 027",
+    "currency": "ETB"
+  },
+  "categories": [
+    {
+      "id": "c-food",
+      "nameEn": "Food",
+      "nameAm": "ምግብ",
+      "emoji": "🍛",
+      "items": [
+        {
+          "id": "i-01",
+          "categoryId": "c-food",
+          "nameEn": "Mutinjera with Wot",
+          "nameAm": "ሙጥንጀራ ከወጥ ጋር",
+          "descriptionEn": "Traditional Harari pancake bread served with a rich spicy stew.",
+          "descriptionAm": "ባህላዊ የሐረሪ ሙጥንጀራ ከጣፋጭ ቅመማ ቅመም ወጥ ጋር ቀርቦ የተዘጋጀ።",
+          "price": 130,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Misir%20Wot%20and%20Gomen%20Besiga%20-%20Abyssinia%2C%20Brighton.jpg?width=420",
+          "available": true,
+          "spicy": true,
+          "sortOrder": 1,
+          "ingredientsEn": [
+            "Mutinjera (teff pancake)",
+            "Beef or lamb wot",
+            "Onion",
+            "Tomato",
+            "Garlic",
+            "Berbere spice",
+            "Niter kibbeh"
+          ],
+          "ingredientsAm": [
+            "ሙጥንጀራ",
+            "የበሬ ወይም የበግራ ወጥ",
+            "ሽንኩርት",
+            "ቲማቲም",
+            "ጉልበት",
+            "በርበሬ",
+            "ንጥር ቅቤ"
+          ]
+        },
+        {
+          "id": "i-02",
+          "categoryId": "c-food",
+          "nameEn": "Kitfo",
+          "nameAm": "ክትፎ",
+          "descriptionEn": "Minced raw beef seasoned with mitmita and niter kibbeh, served with ayib cheese.",
+          "descriptionAm": "በሚጥሚጣና በንጥር ቅቤ የተቀመመ የበሬ ሥጋ፣ ከአይብ ጋር ቀርቦ።",
+          "price": 220,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitfo%20(Ethiopian%20Tartar).jpg?width=420",
+          "available": true,
+          "spicy": true,
+          "sortOrder": 2,
+          "ingredientsEn": [
+            "Minced raw beef",
+            "Mitmita (spiced butter)",
+            "Niter kibbeh",
+            "Ayib cheese",
+            "Gebs (stewed herbs)",
+            "Injera"
+          ],
+          "ingredientsAm": [
+            "የተቀቀለ ጥሬ የበሬ ሥጋ",
+            "ሚጥሚጣ (ቅመም የተለቀ ቅባ)",
+            "ንጥር ቅቤ",
+            "አይብ",
+            "ጎመን",
+            "እንጀራ"
+          ]
+        },
+        {
+          "id": "i-03",
+          "categoryId": "c-food",
+          "nameEn": "Doro Wot",
+          "nameAm": "ዶሮ ወጥ",
+          "descriptionEn": "Chicken stew simmered in berbere sauce with boiled eggs.",
+          "descriptionAm": "በበርበሬ ውስጥ የተዘጋጀ የዶሮ ወጥ ከእንቁላል ጋር።",
+          "price": 180,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Injera%20and%20doro%20wat.jpg?width=420",
+          "available": true,
+          "spicy": true,
+          "sortOrder": 3,
+          "ingredientsEn": [
+            "Chicken",
+            "Onion",
+            "Tomato",
+            "Garlic",
+            "Red berbere",
+            "Butter",
+            "Niter kibbeh",
+            "Boiled eggs"
+          ],
+          "ingredientsAm": [
+            "ዶሮ",
+            "ሽንኩርት",
+            "ቲማቲም",
+            "ጉልበት",
+            "ቀይ በርበሬ",
+            "ቅባ",
+            "ንጥር ቅቤ",
+            "የተቀላሉ እንቁላል"
+          ]
+        },
+        {
+          "id": "i-04",
+          "categoryId": "c-food",
+          "nameEn": "Siga Wot",
+          "nameAm": "ሥጋ ወጥ",
+          "descriptionEn": "Slow-cooked beef stew in a fiery berbere sauce.",
+          "descriptionAm": "በእሳት ቀይ በርበሬ ውስጥ ቀስ ብሎ የተቀቀለ የበሬ ሥጋ ወጥ።",
+          "price": 200,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethiopian%20wat.jpg?width=420",
+          "available": true,
+          "spicy": true,
+          "sortOrder": 4,
+          "ingredientsEn": [
+            "Beef chunks",
+            "Onion",
+            "Tomato",
+            "Garlic",
+            "Red berbere",
+            "Niter kibbeh",
+            "Injera"
+          ],
+          "ingredientsAm": [
+            "የበሬ ሥጋ ምስሎች",
+            "ሽንኩርት",
+            "ቲማቲም",
+            "ጉልበት",
+            "ቀይ በርበሬ",
+            "ንጥር ቅቤ",
+            "እንጀራ"
+          ]
+        },
+        {
+          "id": "i-05",
+          "categoryId": "c-food",
+          "nameEn": "Vegetarian Combo",
+          "nameAm": "አታክልት እርቃኝ",
+          "descriptionEn": "Selection of vegetable stews, salads and lentils on injera.",
+          "descriptionAm": "በአንጀራ ላይ የተመረጡ የአትክልት ወጦች፣ ሰላጣ እና ምስር።",
+          "price": 120,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fastenessen%20fasting%20meal.JPG?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 5,
+          "ingredientsEn": [
+            "Lentils",
+            "Split peas",
+            "Collard greens",
+            "Beetroot",
+            "Salad",
+            "Injera"
+          ],
+          "ingredientsAm": [
+            "ምስር",
+            "ክትፎብር",
+            "ጎመን",
+            "ቅቤ ሰርጎት",
+            "ሳላጣ",
+            "እንጀራ"
+          ]
+        },
+        {
+          "id": "i-06",
+          "categoryId": "c-food",
+          "nameEn": "Shiro Fitfit",
+          "nameAm": "ሽሮ ፍትፍት",
+          "descriptionEn": "Chickpea stew mixed with torn injera.",
+          "descriptionAm": "በተቆራረጠ አንጀራ የተደባለቀ የሽምብራ ወጥ።",
+          "price": 90,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Taita%20and%20shiro.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 6,
+          "ingredientsEn": [
+            "Chickpea stew (shiro)",
+            "Torn injera",
+            "Garlic",
+            "Berbere",
+            "Niter kibbeh"
+          ],
+          "ingredientsAm": [
+            "የሽምብራ ወጥ (ሽሮ)",
+            "የተቆረጠ እንጀራ",
+            "ጉልበት",
+            "በርበሬ",
+            "ንጥር ቅቤ"
+          ]
+        },
+        {
+          "id": "i-07",
+          "categoryId": "c-food",
+          "nameEn": "Beef Burger & Chips",
+          "nameAm": "በርገር እና ድንች",
+          "descriptionEn": "Grilled beef patty burger served with golden fries.",
+          "descriptionAm": "የበሬ በርገር ከወርቃማ ድንች ጋር ቀርቦ።",
+          "price": 250,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheeseburger.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 7,
+          "ingredientsEn": [
+            "Beef patty",
+            "Burger bun",
+            "Cheddar cheese",
+            "Lettuce",
+            "Tomato",
+            "Potatoes",
+            "Ketchup",
+            "Salt and pepper"
+          ],
+          "ingredientsAm": [
+            "የበሬ ሥጋ ካትኪ",
+            "የበርገር እንጀራ",
+            "ቻድር ቅቤ",
+            "ሳላጣ",
+            "ቲማቲም",
+            "ድንች",
+            "ካትሑፕ",
+            "ጨዋታና ቀይ በርበሬ"
+          ]
+        },
+        {
+          "id": "c4dde17d576e",
+          "categoryId": "c-food",
+          "nameEn": "Sambusa (4 pcs)",
+          "nameAm": "ሳምቡሳ (4 ቁራጭ)",
+          "descriptionEn": "Crisp fried pastry pockets stuffed with spiced beef.",
+          "descriptionAm": "ከቅመማ ቅመም የተሞላ የተጋገረ ስጋ ሳምቡሳ።",
+          "price": 90,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Samosa_cross_section%2C_Tokyo_Japan.jpg/500px-Samosa_cross_section%2C_Tokyo_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": true,
+          "sortOrder": 7,
+          "ingredientsEn": [
+            "Flour pastry",
+            "Beef",
+            "Onion",
+            "Garlic",
+            "Cumin",
+            "Coriander",
+            "Cooking oil"
+          ],
+          "ingredientsAm": [
+            "የአስተ ሥጋ ሊጡ",
+            "በሬ ሥጋ",
+            "ሽንኩርት",
+            "ጉልበት",
+            "እሙዝ",
+            "ኮርዮንደር",
+            "የቅቤ ዘይት"
+          ]
+        },
+        {
+          "id": "199af32f1f98",
+          "categoryId": "c-food",
+          "nameEn": "Beef Tibs",
+          "nameAm": "ሥጋ ጥብስ",
+          "descriptionEn": "Sautéed beef cubes with onion, rosemary and pepper.",
+          "descriptionAm": "ከሽንቅኩና ከሮዝመሪ ጋር የተጠበሰ የበሬ ሥጋ ጥብስ።",
+          "price": 240,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Person_Enjoys_Tibs.JPG/500px-Person_Enjoys_Tibs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": true,
+          "sortOrder": 8,
+          "ingredientsEn": [
+            "Beef sirloin",
+            "Onion",
+            "Rosemary",
+            "Red pepper",
+            "Butter",
+            "Salt"
+          ],
+          "ingredientsAm": [
+            "የበሬ ሥጋ ጥራ",
+            "ሽንኩርት",
+            "ሮዝመሪ",
+            "ቀይ በርበሬ",
+            "ቅባ",
+            "ጨዋታ"
+          ]
+        },
+        {
+          "id": "e06b0d089524",
+          "categoryId": "c-food",
+          "nameEn": "Kik Alicha",
+          "nameAm": "ሽምብራ አልጫ",
+          "descriptionEn": "Yellow split-pea stew with turmeric, garlic and ginger.",
+          "descriptionAm": "ከሩብ፣ ከጉልበትና ከዘር ጋር የተዘጋጀ ቀይ ቡና ሽምብራ ወጥ።",
+          "price": 100,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Alicha_1.jpg/500px-Alicha_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 9,
+          "ingredientsEn": [
+            "Split peas",
+            "Turmeric",
+            "Garlic",
+            "Ginger",
+            "Onion",
+            "Niter kibbeh",
+            "Injera"
+          ],
+          "ingredientsAm": [
+            "ክትፎብር",
+            "ለብር",
+            "ጉልበት",
+            "ዘር",
+            "ሽንኩርት",
+            "ንጥር ቅቤ",
+            "እንጀራ"
+          ]
+        },
+        {
+          "id": "8ac354e2f0c2",
+          "categoryId": "c-food",
+          "nameEn": "Gomen",
+          "nameAm": "ጎመን",
+          "descriptionEn": "Collard greens simmered with garlic and herbs.",
+          "descriptionAm": "ከጉልበትና ከቅጠል ጋር የተቀቀለ ጎመን።",
+          "price": 85,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yams%2C%20black-eyed%20peas%2C%20collard%20greens%20(6213122509).jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 10,
+          "ingredientsEn": [
+            "Collard greens",
+            "Garlic",
+            "Onion",
+            "Herbs",
+            "Niter kibbeh",
+            "Injera"
+          ],
+          "ingredientsAm": [
+            "ጎመን",
+            "ጉልበት",
+            "ሽንኩርት",
+            "ቅጠል",
+            "ንጥር ቅቤ",
+            "እንጀራ"
+          ]
+        },
+        {
+          "id": "0c1189a34bc6",
+          "categoryId": "c-food",
+          "nameEn": "Garden Salad",
+          "nameAm": "ሳላጣ",
+          "descriptionEn": "Fresh lettuce, tomato, cucumber and onion with lemon.",
+          "descriptionAm": "አዲስ ቅጠል፣ ቲማቲም፣ አቆሪና ሽንኩርት ከሎሚ ጋር።",
+          "price": 75,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Romaine_lettuce.jpg/500px-Romaine_lettuce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 11,
+          "ingredientsEn": [
+            "Lettuce",
+            "Tomato",
+            "Cucumber",
+            "Onion",
+            "Olive oil",
+            "Lemon",
+            "Salt"
+          ],
+          "ingredientsAm": [
+            "ሳላጣ",
+            "ቲማቲም",
+            "አቆሪ",
+            "ሽንኩርት",
+            "የርስስ ዘይት",
+            "ሎሚ",
+            "ጨዋታ"
+          ]
+        },
+        {
+          "id": "8610c9f1e94e",
+          "categoryId": "c-food",
+          "nameEn": "Fried Chicken & Chips",
+          "nameAm": "የተጠበሰ ዶሮ እና ድንች",
+          "descriptionEn": "Golden fried chicken pieces with french fries.",
+          "descriptionAm": "ወርቃማ የተጠበሰ ዶሮ ከድንች ጋር።",
+          "price": 280,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Fried-Chicken-Set.jpg/500px-Fried-Chicken-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 12,
+          "ingredientsEn": [
+            "Chicken",
+            "Flour",
+            "Egg",
+            "Spices",
+            "Potatoes",
+            "Salt",
+            "Cooking oil"
+          ],
+          "ingredientsAm": [
+            "ዶሮ",
+            "ዱቂቆ",
+            "እንቁላል",
+            "ቅመማቶች",
+            "ድንች",
+            "ጨዋታ",
+            "የቅቤ ዘይት"
+          ]
+        },
+        {
+          "id": "b93485aa9133",
+          "categoryId": "c-food",
+          "nameEn": "Spaghetti Bolognese",
+          "nameAm": "ስፔጫጊ በሎኔዝ",
+          "descriptionEn": "Pasta in a rich beef and tomato sauce.",
+          "descriptionAm": "ከበሬ ሥጋና ከቲማቲም ሽርሽር ጋር ስፔጫጊ።",
+          "price": 220,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Spaghetti_Bolognese.jpg/500px-Spaghetti_Bolognese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 13,
+          "ingredientsEn": [
+            "Spaghetti",
+            "Ground beef",
+            "Tomato",
+            "Onion",
+            "Garlic",
+            "Olive oil",
+            "Herbs"
+          ],
+          "ingredientsAm": [
+            "ስፔጫጊ",
+            "የተቀቀመ በሬ ሥጋ",
+            "ቲማቲም",
+            "ሽንኩርት",
+            "ጉልበት",
+            "የርስስ ዘይት",
+            "ቅጠል"
+          ]
+        },
+        {
+          "id": "0fc8ff1b32c2",
+          "categoryId": "c-food",
+          "nameEn": "Rice & Curry",
+          "nameAm": "ሩዝ እና ካሪ",
+          "descriptionEn": "Steamed rice with mild curry sauce and vegetables.",
+          "descriptionAm": "ቀላል ካሪ ሽርሽርና አትክልት ጋር የተቀላጠፈ ሩዝ።",
+          "price": 200,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Japanese_style_chicken_curry_with_rice_of_Nakau.JPG/500px-Japanese_style_chicken_curry_with_rice_of_Nakau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": true,
+          "sortOrder": 14,
+          "ingredientsEn": [
+            "Rice",
+            "Chicken",
+            "Onion",
+            "Tomato",
+            "Curry powder",
+            "Cooking oil",
+            "Salt"
+          ],
+          "ingredientsAm": [
+            "ሩዝ",
+            "ዶሮ",
+            "ሽንኩርት",
+            "ቲማቲም",
+            "ካሪ ዱኒያ",
+            "የቅቤ ዘይት",
+            "ጨዋታ"
+          ]
+        },
+        {
+          "id": "1654c5da209b",
+          "categoryId": "c-food",
+          "nameEn": "Pizza Margherita",
+          "nameAm": "ፒዛ ማርጌሪጣ",
+          "descriptionEn": "Stone-baked pizza with tomato, mozzarella and basil.",
+          "descriptionAm": "ከቲማቲም፣ ከሞዛሪላና ከባዚል ጋር የተጋገረ ፒዛ።",
+          "price": 320,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/500px-Eq_it-na_pizza-margherita_sep2005_sml.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 15,
+          "ingredientsEn": [
+            "Pizza dough",
+            "Tomato sauce",
+            "Mozzarella",
+            "Basil",
+            "Olive oil",
+            "Salt"
+          ],
+          "ingredientsAm": [
+            "የፒዛ ሊጡ",
+            "የቲማቲም ሶስ",
+            "ሞዝየሪላ",
+            "ባዝል",
+            "የርስስ ዘይት",
+            "ጨዋታ"
+          ]
+        },
+        {
+          "id": "6c71d490ce89",
+          "categoryId": "c-food",
+          "nameEn": "Beef Sandwich",
+          "nameAm": "የበሬ ሳንድዊች",
+          "descriptionEn": "Toasted bread with beef, lettuce and house sauce.",
+          "descriptionAm": "ከበሬ ሥጋ፣ ከቅጠልና ከየት ስልዌስ ጋር ሳንድዊች።",
+          "price": 160,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Katzs_deli_corned_beef.jpg/500px-Katzs_deli_corned_beef.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 16,
+          "ingredientsEn": [
+            "Bread",
+            "Roast beef",
+            "Lettuce",
+            "Tomato",
+            "House sauce",
+            "Salt"
+          ],
+          "ingredientsAm": [
+            "እንጀራ",
+            "የተጠበሰ በሬ ሥጋ",
+            "ሳላጣ",
+            "ቲማቲም",
+            "የቤት ስልጤስ",
+            "ጨዋታ"
+          ]
+        },
+        {
+          "id": "632f74bfc24c",
+          "categoryId": "c-food",
+          "nameEn": "French Fries",
+          "nameAm": "ድንች",
+          "descriptionEn": "Crispy golden fries with ketchup.",
+          "descriptionAm": "ከካትሑፕ ጋር ወርቃማ ድንች።",
+          "price": 110,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Truffle_oil_french_fries_%2833024792848%29.jpg/500px-Truffle_oil_french_fries_%2833024792848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 17,
+          "ingredientsEn": [
+            "Potatoes",
+            "Cooking oil",
+            "Salt",
+            "Ketchup"
+          ],
+          "ingredientsAm": [
+            "ድንች",
+            "የቅቤ ዘይት",
+            "ጨዋታ",
+            "ካትሑፕ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-coffee",
+      "nameEn": "Coffee & Tea",
+      "nameAm": "ቡና እና ሻይ",
+      "emoji": "☕",
+      "items": [
+        {
+          "id": "i-08",
+          "categoryId": "c-coffee",
+          "nameEn": "Harar Coffee",
+          "nameAm": "የሐረር ቡና",
+          "descriptionEn": "Freshly roasted Harari coffee brewed the traditional way.",
+          "descriptionAm": "በባህላዊ መንገድ የተቆለለ አዲስ የተጠበሰ የሐረር ቡና።",
+          "price": 60,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coffee%20ceremony%20of%20Ethiopia%20and%20Eritrea%201.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 1,
+          "ingredientsEn": [
+            "Harari coffee beans",
+            "Water",
+            "Pan",
+            "Grass",
+            "Roasted butter"
+          ],
+          "ingredientsAm": [
+            "የሐረሪ ቡና ቅርፍ",
+            "ውሃ",
+            "ስክይል",
+            "ሳር",
+            "የተጠበሰ ቅባ"
+          ]
+        },
+        {
+          "id": "i-09",
+          "categoryId": "c-coffee",
+          "nameEn": "Macchiato",
+          "nameAm": "ማኪያቶ",
+          "descriptionEn": "Espresso topped with a touch of steamed milk.",
+          "descriptionAm": "እስፕሬሶ በትንሽ ወተት የተሸፈነ።",
+          "price": 45,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Latte%20macchiato%20with%20coffee%20beans.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 2,
+          "ingredientsEn": [
+            "Espresso",
+            "Steamed milk",
+            "Milk foam",
+            "Cocoa powder"
+          ],
+          "ingredientsAm": [
+            "እስፕሬሶ",
+            "የተጠበሰ ወተት",
+            "የወተት አረፋ",
+            "የካኮዎ እንብረት"
+          ]
+        },
+        {
+          "id": "i-10",
+          "categoryId": "c-coffee",
+          "nameEn": "Cappuccino",
+          "nameAm": "ካፑቺኖ",
+          "descriptionEn": "Espresso with steamed milk and milk foam.",
+          "descriptionAm": "እስፕሬሶ ከወተትና ከወተት አረፋ ጋር።",
+          "price": 45,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cappuccino%208.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 3,
+          "ingredientsEn": [
+            "Espresso",
+            "Steamed milk",
+            "Milk foam",
+            "Cocoa powder"
+          ],
+          "ingredientsAm": [
+            "እስፕሬሶ",
+            "የተጠበሰ ወተት",
+            "የወተት አረፋ",
+            "የካኮዎ እንብረት"
+          ]
+        },
+        {
+          "id": "a5f34fa7f148",
+          "categoryId": "c-coffee",
+          "nameEn": "Latte",
+          "nameAm": "ላቴ",
+          "descriptionEn": "Espresso with plenty of silky steamed milk.",
+          "descriptionAm": "እስፕሬሶ ከብዛት ወተት ጋር።",
+          "price": 55,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Caff%C3%A8_latte_as_being_served_at_Kaffebrenneriet_Torshov%2C_Oslo%2C_Norway_2_600x600_100KB.jpg/500px-Caff%C3%A8_latte_as_being_served_at_Kaffebrenneriet_Torshov%2C_Oslo%2C_Norway_2_600x600_100KB.jpg?utm_source=commons.wikimedia.org&utm_camp",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 4,
+          "ingredientsEn": [
+            "Espresso",
+            "Steamed milk",
+            "Milk foam"
+          ],
+          "ingredientsAm": [
+            "እስፕሬሶ",
+            "የተጠበሰ ወተት",
+            "የወተት አረፋ"
+          ]
+        },
+        {
+          "id": "i-11",
+          "categoryId": "c-coffee",
+          "nameEn": "Spiced Tea",
+          "nameAm": "ቅመም ሻይ",
+          "descriptionEn": "Black tea brewed with cinnamon, cardamom and cloves.",
+          "descriptionAm": "በቀረፋ፣ በኮሮማ፣ በቅርንፉድ የተቀቀለ ሻይ።",
+          "price": 35,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20Jan%2016%20-%20Kumbh%20Mela%20-%20Chai.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 4,
+          "ingredientsEn": [
+            "Black tea",
+            "Cinnamon",
+            "Cardamom",
+            "Clove",
+            "Ginger",
+            "Sugar",
+            "Water"
+          ],
+          "ingredientsAm": [
+            "ጥኩር ሻይ",
+            "ቀይ ያለሰከርም",
+            "ካርዶሞም",
+            "ሚክላ",
+            "ዘር",
+            "ስኳር",
+            "ውሃ"
+          ]
+        },
+        {
+          "id": "2b890269543b",
+          "categoryId": "c-coffee",
+          "nameEn": "Espresso",
+          "nameAm": "እስፕሬሶ",
+          "descriptionEn": "A short, strong shot of pure coffee.",
+          "descriptionAm": "አጭር፣ ጠንካራ ቡና።",
+          "price": 40,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Espresso_BW_1.jpg/500px-Espresso_BW_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 5,
+          "ingredientsEn": [
+            "Ground coffee",
+            "Hot water"
+          ],
+          "ingredientsAm": [
+            "የተቀቀመ ቡና",
+            "ሞቅ ውሃ"
+          ]
+        },
+        {
+          "id": "ec112c918828",
+          "categoryId": "c-coffee",
+          "nameEn": "Iced Coffee",
+          "nameAm": "ቀዝቃዛ ቡና",
+          "descriptionEn": "Chilled black coffee served over ice.",
+          "descriptionAm": "በበረዶ ላይ የተቀቀለ ጥኩር ቡና።",
+          "price": 65,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Iced_Coffee_%286088101587%29.jpg/500px-Iced_Coffee_%286088101587%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 6,
+          "ingredientsEn": [
+            "Brewed coffee",
+            "Ice",
+            "Water",
+            "Sugar or milk"
+          ],
+          "ingredientsAm": [
+            "የተጠበሰ ቡና",
+            "በረዶ",
+            "ውሃ",
+            "ስኳር ወይም ወተት"
+          ]
+        },
+        {
+          "id": "c28f8c9ee9cc",
+          "categoryId": "c-coffee",
+          "nameEn": "Black Tea",
+          "nameAm": "ጥኩር ሻይ",
+          "descriptionEn": "Strong Ethiopian black tea, served hot.",
+          "descriptionAm": "ጠንካራ የኢትዮጵያ ጥኩር ሻይ፣ ሞቅሞቅ።",
+          "price": 30,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Black-tea.jpg/500px-Black-tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 7,
+          "ingredientsEn": [
+            "Black tea leaves",
+            "Water",
+            "Sugar"
+          ],
+          "ingredientsAm": [
+            "የጥኩር ሻይ ቅጠል",
+            "ውሃ",
+            "ስኳር"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-juice",
+      "nameEn": "Fresh Juices & Drinks",
+      "nameAm": "አዲስ ጭማቂ እና መጠጦች",
+      "emoji": "🍹",
+      "items": [
+        {
+          "id": "i-12",
+          "categoryId": "c-juice",
+          "nameEn": "Avocado Juice",
+          "nameAm": "አቮካዶ ጁስ",
+          "descriptionEn": "Thick, creamy fresh avocado blended with milk.",
+          "descriptionAm": "በወተት የተደባለቀ ጥቅጥቅ ያለ አዲስ አቮካዶ ጁስ።",
+          "price": 70,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Avocado%20lamaw%20(Avocado%20in%20milk%20and%20sugar%2C%20chilled%20or%20with%20ice)%2C%20Philippines%2004.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 1,
+          "ingredientsEn": [
+            "Avocado",
+            "Milk",
+            "Sugar",
+            "Ice",
+            "Lime"
+          ],
+          "ingredientsAm": [
+            "አቮካዶ",
+            "ወተት",
+            "ስኳር",
+            "በረዶ",
+            "ሎሚ"
+          ]
+        },
+        {
+          "id": "i-13",
+          "categoryId": "c-juice",
+          "nameEn": "Mango Juice",
+          "nameAm": "ማንጎ ጁስ",
+          "descriptionEn": "Fresh mango blended to a silky smooth drink.",
+          "descriptionAm": "በጣም ለስላሳ የሆነ አዲስ ማንጎ ጁስ።",
+          "price": 70,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mangos%20-%20single%20and%20halved.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 2,
+          "ingredientsEn": [
+            "Mango",
+            "Sugar",
+            "Ice",
+            "Water",
+            "Lemon"
+          ],
+          "ingredientsAm": [
+            "ማንጎ",
+            "ስኳር",
+            "በረዶ",
+            "ውሃ",
+            "ሎሚ"
+          ]
+        },
+        {
+          "id": "i-14",
+          "categoryId": "c-juice",
+          "nameEn": "Mixed Fresh Juice",
+          "nameAm": "የተደባለቀ ጁስ",
+          "descriptionEn": "Seasonal fruits pressed into today's blend.",
+          "descriptionAm": "የወቅቱ ፍራፍሬ ተደባልቆ የተዘጋጀ ጁስ።",
+          "price": 80,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Orange%20juice%201%20edit1.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 3,
+          "ingredientsEn": [
+            "Seasonal fruits",
+            "Orange",
+            "Apple",
+            "Carrot",
+            "Ginger",
+            "Ice"
+          ],
+          "ingredientsAm": [
+            "የወቅቱ ፍራፍሬ",
+            "ትሮፖ",
+            "ፖም",
+            "ካሮት",
+            "ዘር",
+            "በረዶ"
+          ]
+        },
+        {
+          "id": "i-15",
+          "categoryId": "c-juice",
+          "nameEn": "Lemon Juice",
+          "nameAm": "ሎሚ ጁስ",
+          "descriptionEn": "Freshly squeezed lemon with sugar and ice.",
+          "descriptionAm": "አዲስ የተጨመቀ ሎሚ ከስኳርና ከበረዶ ጋር።",
+          "price": 55,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lemonade%202.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 4,
+          "ingredientsEn": [
+            "Lemon",
+            "Sugar",
+            "Water",
+            "Ice",
+            "Mint"
+          ],
+          "ingredientsAm": [
+            "ሎሚ",
+            "ስኳር",
+            "ውሃ",
+            "በረዶ",
+            "ንጥሩጥር"
+          ]
+        },
+        {
+          "id": "66abc60d4808",
+          "categoryId": "c-juice",
+          "nameEn": "Papaya Juice",
+          "nameAm": "ፓፓያ ጁስ",
+          "descriptionEn": "Fresh papaya blended smooth.",
+          "descriptionAm": "ለስላሳ የተደባለቀ አዲስ ፓፓያ ጁስ።",
+          "price": 75,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Zumo_de_Papaya-2009.jpg/500px-Zumo_de_Papaya-2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 4,
+          "ingredientsEn": [
+            "Papaya",
+            "Sugar",
+            "Water",
+            "Ice",
+            "Lemon"
+          ],
+          "ingredientsAm": [
+            "ፓፓያ",
+            "ስኳር",
+            "ውሃ",
+            "በረዶ",
+            "ሎሚ"
+          ]
+        },
+        {
+          "id": "6524ce750fe6",
+          "categoryId": "c-juice",
+          "nameEn": "Pineapple Juice",
+          "nameAm": "አናናስ ጁስ",
+          "descriptionEn": "Sweet-tart pineapple juice.",
+          "descriptionAm": "ጣፋጭ ቶንሽ ጨዋ የአናናስ ጁስ።",
+          "price": 75,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Pineapple_Juice.jpg/500px-Pineapple_Juice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 5,
+          "ingredientsEn": [
+            "Pineapple",
+            "Sugar",
+            "Water",
+            "Ice",
+            "Mint"
+          ],
+          "ingredientsAm": [
+            "አናናስ",
+            "ስኳር",
+            "ውሃ",
+            "በረዶ",
+            "ንጥሩጥር"
+          ]
+        },
+        {
+          "id": "c50ad8016cb6",
+          "categoryId": "c-juice",
+          "nameEn": "Guava Juice",
+          "nameAm": "ጉልት ጁስ",
+          "descriptionEn": "Thick pink guava juice.",
+          "descriptionAm": "ጥቅጥቅ ያለ ሮዝ የጉልት ጁስ።",
+          "price": 80,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Guava_ID.jpg/500px-Guava_ID.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 6,
+          "ingredientsEn": [
+            "Guava",
+            "Sugar",
+            "Water",
+            "Ice",
+            "Lemon"
+          ],
+          "ingredientsAm": [
+            "ጉልት",
+            "ስኳር",
+            "ውሃ",
+            "በረዶ",
+            "ሎሚ"
+          ]
+        },
+        {
+          "id": "47cf85aed801",
+          "categoryId": "c-juice",
+          "nameEn": "Banana Juice",
+          "nameAm": "በተን ጁስ",
+          "descriptionEn": "Banana blended with milk and honey.",
+          "descriptionAm": "በተን ከወተትና ከማር ጋር የተደባለቀ።",
+          "price": 70,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Banana_and_strawberry_smoothie.jpg/500px-Banana_and_strawberry_smoothie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 7,
+          "ingredientsEn": [
+            "Banana",
+            "Milk",
+            "Honey",
+            "Ice",
+            "Cinnamon"
+          ],
+          "ingredientsAm": [
+            "በተን",
+            "ወተት",
+            "ማር",
+            "በረዶ",
+            "ቀይ ያለሰከርም"
+          ]
+        },
+        {
+          "id": "f8d0b126a6c4",
+          "categoryId": "c-juice",
+          "nameEn": "Watermelon Juice",
+          "nameAm": "ሲኳዝ ጁስ",
+          "descriptionEn": "Refreshing chilled watermelon juice.",
+          "descriptionAm": "ቀዝቃዛ እና እጅጉ መጠጥ የሚሰጥ ሲኳዝ ጁስ።",
+          "price": 65,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Tow_Glass_of_Watermelon_Juice.jpg/500px-Tow_Glass_of_Watermelon_Juice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 8,
+          "ingredientsEn": [
+            "Watermelon",
+            "Lime",
+            "Ice",
+            "Mint",
+            "Salt"
+          ],
+          "ingredientsAm": [
+            "ሲኳዝ",
+            "ሎሚ",
+            "በረዶ",
+            "ንጥሩጥር",
+            "ጨዋታ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-beer",
+      "nameEn": "Beverages & Alcohol",
+      "nameAm": "መጠጦች",
+      "emoji": "🍺",
+      "items": [
+        {
+          "id": "i-16",
+          "categoryId": "c-beer",
+          "nameEn": "Harar Beer",
+          "nameAm": "ሐረር ቢራ",
+          "descriptionEn": "Local lager, ice cold.",
+          "descriptionAm": "የአካባቢው ላገር ቢራ፣ በጣም ቀዝቃዛ።",
+          "price": 50,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beer%20wuerzburger%20hofbraue%20v.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 1,
+          "ingredientsEn": [
+            "Barley malt",
+            "Hops",
+            "Water",
+            "Yeast"
+          ],
+          "ingredientsAm": [
+            "የገብ ማልት",
+            "ሆፕስ",
+            "ውሃ",
+            "ኸምብ"
+          ]
+        },
+        {
+          "id": "i-17",
+          "categoryId": "c-beer",
+          "nameEn": "Tigray Star Beer",
+          "nameAm": "ትግራይ ስታር ቢራ",
+          "descriptionEn": "Premium lager, ice cold.",
+          "descriptionAm": "ፕሪሚየም ላገር ቢራ፣ በጣም ቀዝቃዛ።",
+          "price": 60,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Von%20Trapp%20beer%20glass%20with%20beer%202021%20001.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 2,
+          "ingredientsEn": [
+            "Barley malt",
+            "Hops",
+            "Water",
+            "Yeast"
+          ],
+          "ingredientsAm": [
+            "የገብ ማልት",
+            "ሆፕስ",
+            "ውሃ",
+            "ኸምብ"
+          ]
+        },
+        {
+          "id": "i-18",
+          "categoryId": "c-beer",
+          "nameEn": "Tej (Honey Wine)",
+          "nameAm": "ጠጅ",
+          "descriptionEn": "Traditional Ethiopian honey wine, served chilled.",
+          "descriptionAm": "ባህላዊ የኢትዮጵያ የማር ወይን፣ ቀዝቃዞ ቀርቦ።",
+          "price": 60,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20glass%20of%20Ethiopian%20mead%20(tej).jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 3,
+          "ingredientsEn": [
+            "Honey",
+            "Water",
+            "Gesho leaves",
+            "Spices",
+            "Sunlight"
+          ],
+          "ingredientsAm": [
+            "ማር",
+            "ውሃ",
+            "ጌሾ ቅጠል",
+            "ቅመማቶች",
+            "የፀዓት ብርሃን"
+          ]
+        },
+        {
+          "id": "i-19",
+          "categoryId": "c-beer",
+          "nameEn": "White Wine (Glass)",
+          "nameAm": "ነጭ ወይን (ብርጭቆ)",
+          "descriptionEn": "Crisp imported white wine by the glass.",
+          "descriptionAm": "ጣፋጭ ከውጭ የመጣ ነጭ ወይን በብርጭቆ።",
+          "price": 120,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20Wine%20Glas.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 4,
+          "ingredientsEn": [
+            "White grape juice",
+            "Water",
+            "Yeast",
+            "Sulphites"
+          ],
+          "ingredientsAm": [
+            "የነጭ ወይን ጭማቂ",
+            "ውሃ",
+            "ኸምብ",
+            "ሰልፋይት"
+          ]
+        },
+        {
+          "id": "i-20",
+          "categoryId": "c-beer",
+          "nameEn": "Soft Drinks",
+          "nameAm": "ለስላሳ መጠጦች",
+          "descriptionEn": "Coke, Sprite or Fanta.",
+          "descriptionAm": "ኮካ ኮላ፣ ስፕራይት ወይም ፋንታ።",
+          "price": 40,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/15-09-26-RalfR-WLC-0098%20-%20Coca-Cola%20glass%20bottle%20(Germany).jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 5,
+          "ingredientsEn": [
+            "Carbonated water",
+            "Sugar or sweetener",
+            "Flavouring",
+            "Caffeine"
+          ],
+          "ingredientsAm": [
+            "ጨማቅ ውሃ",
+            "ስኳር",
+            "ጣዕም",
+            "ካፌን"
+          ]
+        },
+        {
+          "id": "i-21",
+          "categoryId": "c-beer",
+          "nameEn": "Mineral Water",
+          "nameAm": "የማዕድን ውሃ",
+          "descriptionEn": "Still or sparkling bottled water.",
+          "descriptionAm": "የተጣራ ወይም የሚያፈላ የታከሰ ውሃ።",
+          "price": 30,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo%20of%20canned%20spring%20water.%2016%20oz%20reclosable%20aluminum%20bottle.jpg?width=420",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 6,
+          "ingredientsEn": [
+            "Still or sparkling water",
+            "Minerals",
+            "Carbon dioxide"
+          ],
+          "ingredientsAm": [
+            "የሰላም ውሃ",
+            "የሚኒራል ጽሕፈት",
+            "ካርቦን ዳይኦክሳይድ"
+          ]
+        },
+        {
+          "id": "4e1b77499a39",
+          "categoryId": "c-beer",
+          "nameEn": "Red Wine (Glass)",
+          "nameAm": "ቀይ ወይን (ብርጭቆ)",
+          "descriptionEn": "Dry red wine by the glass.",
+          "descriptionAm": "ጥጬ የሆነ ቀይ ወይን በብርጭቆ።",
+          "price": 120,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Pouring_red_wine_into_a_glass.jpg/500px-Pouring_red_wine_into_a_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 6,
+          "ingredientsEn": [
+            "Red grape juice",
+            "Water",
+            "Yeast",
+            "Oak ageing",
+            "Sulphites"
+          ],
+          "ingredientsAm": [
+            "የቀይ ወይን ጭማቂ",
+            "ውሃ",
+            "ኸምብ",
+            "የክፍቢ ጊዜ",
+            "ሰልፋይት"
+          ]
+        },
+        {
+          "id": "2b4bac158089",
+          "categoryId": "c-beer",
+          "nameEn": "Gin & Tonic",
+          "nameAm": "ጂን እና ቶኒክ",
+          "descriptionEn": "Classic gin and tonic with ice and lime.",
+          "descriptionAm": "ከበረዶና ከሎሚ ጋር የተለመደ ጂን እና ቶኒክ።",
+          "price": 150,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Gin_and_tonic_with_lime.jpg/500px-Gin_and_tonic_with_lime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 7,
+          "ingredientsEn": [
+            "Gin",
+            "Tonic water",
+            "Ice",
+            "Lime",
+            "Quinine"
+          ],
+          "ingredientsAm": [
+            "ጂን",
+            "ቶኒክ ውሃ",
+            "በረዶ",
+            "ሎሚ",
+            "ኩኒን"
+          ]
+        },
+        {
+          "id": "23fa9e4d3d20",
+          "categoryId": "c-beer",
+          "nameEn": "Energy Drink",
+          "nameAm": "ኢነርጂ መጠጦች",
+          "descriptionEn": "Cold energy drink can.",
+          "descriptionAm": "ቀዝቃዛ የኢነርጂ መጠጥ ወርቅ።",
+          "price": 90,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Headshot_energy_drink_365ml_200mg_cafeine_and_L_Tyrosine.jpg/500px-Headshot_energy_drink_365ml_200mg_cafeine_and_L_Tyrosine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 8,
+          "ingredientsEn": [
+            "Taurine",
+            "Caffeine",
+            "Sugar",
+            "B vitamins",
+            "Carbonated water"
+          ],
+          "ingredientsAm": [
+            "ታውሪን",
+            "ካፌን",
+            "ስኳር",
+            "የቪ ቫማኒኖች",
+            "ጨማቅ ውሃ"
+          ]
+        },
+        {
+          "id": "b5e39fa5ad7b",
+          "categoryId": "c-beer",
+          "nameEn": "Fresh Milk",
+          "nameAm": "አዲስ ወተት",
+          "descriptionEn": "Cold pasteurised fresh milk.",
+          "descriptionAm": "ቀዝቃዛ አዲስ ወተት።",
+          "price": 45,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Bowl_milk_glass.jpg/500px-Bowl_milk_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 9,
+          "ingredientsEn": [
+            "Fresh cow milk",
+            "Water",
+            "Starter culture"
+          ],
+          "ingredientsAm": [
+            "አዲስ የላም ወተት",
+            "ውሃ",
+            "ስቀመጥ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-special",
+      "nameEn": "Set Menus & Specials",
+      "nameAm": "ስብስብ ምናሌ እና ልዩ",
+      "emoji": "🎉",
+      "items": [
+        {
+          "id": "i-22",
+          "categoryId": "c-special",
+          "nameEn": "Harari Traditional Feast",
+          "nameAm": "የሐረሪ ባህላዊ ድግስ",
+          "descriptionEn": "A grand table of mutinjera, kitfo, doro wot and Harari sweets for the whole table.",
+          "descriptionAm": "ለጠቅላላው ጠረጴዛ የሙጥንጀራ፣ ክትፎ፣ ዶሮ ወጥና የሐረሪ ጣፋጮች ታላቅ ዝግጅት።",
+          "price": 450,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethiopian%20cuisine%20fusion.jpg?width=420",
+          "available": true,
+          "spicy": true,
+          "sortOrder": 1,
+          "ingredientsEn": [
+            "Mutinjera",
+            "Kitfo",
+            "Doro wot",
+            "Vegetarian stews",
+            "Injera",
+            "Coffee",
+            "Harari sweets"
+          ],
+          "ingredientsAm": [
+            "ሙጥንጀራ",
+            "ክትፎ",
+            "ዶሮ ወጥ",
+            "የአትክልት ወጦች",
+            "እንጀራ",
+            "ቡና",
+            "የሐረሪ ጣፋጮች"
+          ]
+        },
+        {
+          "id": "i-23",
+          "categoryId": "c-special",
+          "nameEn": "Family Set for 4",
+          "nameAm": "የቤተሰብ ስብስብ ለ4",
+          "descriptionEn": "A sharing platter of the chef's selection — feeds 4 people.",
+          "descriptionAm": "የሼፉ ምርጫ የማጋሪያ ትሪ፣ ለ4 ሰዎች በቂ።",
+          "price": 900,
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Injera%20and%20doro%20wat%20-%2049337093131.jpg?width=420",
+          "available": true,
+          "spicy": true,
+          "sortOrder": 2,
+          "ingredientsEn": [
+            "Mixed meat wot",
+            "Kitfo",
+            "Vegetarian combo",
+            "Injera",
+            "Salad",
+            "Coffee or tea"
+          ],
+          "ingredientsAm": [
+            "የተዋላየ ሥጋ ወጥ",
+            "ክትፎ",
+            "አታክልት እርቃኝ",
+            "እንጀራ",
+            "ሳላጣ",
+            "ቡና ወይም ሻይ"
+          ]
+        },
+        {
+          "id": "i-24",
+          "categoryId": "c-special",
+          "nameEn": "Today's Special",
+          "nameAm": "የዛሬ ልዩ",
+          "descriptionEn": "Ask your server about today's featured dish.",
+          "descriptionAm": "የዛሬውን ልዩ ምግብ ከሰራተኛዎ ይጠይቁ።",
+          "price": 150,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Ethiopian_food.jpg/500px-Ethiopian_food.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 3,
+          "ingredientsEn": [
+            "Ask your server for today's ingredients"
+          ],
+          "ingredientsAm": [
+            "የዛሬውን ግብዎች ከሰራተኛዎ ይጠይቁ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0a5d53e8579b",
+      "nameEn": "Other",
+      "nameAm": "ሌሎች",
+      "emoji": "🍿",
+      "items": [
+        {
+          "id": "238b525d50c3",
+          "categoryId": "0a5d53e8579b",
+          "nameEn": "Fresh Fruit Plate",
+          "nameAm": "የፍራፍሬ ሳህን",
+          "descriptionEn": "Seasonal fruits, sliced fresh.",
+          "descriptionAm": "የወቅቱ ፍራፍሬ አዲስ ተቆራርጦ።",
+          "price": 120,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Salad_platter.jpg/500px-Salad_platter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 0,
+          "ingredientsEn": [
+            "Seasonal fruits",
+            "Lemon",
+            "Mint",
+            "Honey drizzle"
+          ],
+          "ingredientsAm": [
+            "የወቅቱ ፍራፍሬ",
+            "ሎሚ",
+            "ንጥሩጥር",
+            "ማር"
+          ]
+        },
+        {
+          "id": "3450782a7cdc",
+          "categoryId": "0a5d53e8579b",
+          "nameEn": "Chocolate Cake",
+          "nameAm": "ቸኮሌት ኬክ",
+          "descriptionEn": "Moist chocolate cake slice.",
+          "descriptionAm": "ጥጥ ያለ የቸኮሌት ኬክ።",
+          "price": 110,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/GermanChocolateCake.jpg/500px-GermanChocolateCake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 1,
+          "ingredientsEn": [
+            "Cocoa powder",
+            "Flour",
+            "Sugar",
+            "Eggs",
+            "Butter",
+            "Cream"
+          ],
+          "ingredientsAm": [
+            "የካካዎ እንብረት",
+            "ዱቂቆ",
+            "ስኳር",
+            "እንቁላል",
+            "ቅባ",
+            "ክሪም"
+          ]
+        },
+        {
+          "id": "7a00c381b634",
+          "categoryId": "0a5d53e8579b",
+          "nameEn": "Ice Cream",
+          "nameAm": "አይስ ክሬም",
+          "descriptionEn": "Vanilla or mango ice cream.",
+          "descriptionAm": "የባኒላ ወይም የማንጎ አይስ ክሬም።",
+          "price": 85,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ice_Cream_dessert_02.jpg/500px-Ice_Cream_dessert_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 2,
+          "ingredientsEn": [
+            "Milk",
+            "Cream",
+            "Sugar",
+            "Vanilla or mango",
+            "Ice"
+          ],
+          "ingredientsAm": [
+            "ወተት",
+            "ክሪም",
+            "ስኳር",
+            "ባኒላ ወይም ማንጎ",
+            "በረዶ"
+          ]
+        },
+        {
+          "id": "af1df460ea6b",
+          "categoryId": "0a5d53e8579b",
+          "nameEn": "Popcorn",
+          "nameAm": "ፖፕኮርን",
+          "descriptionEn": "Salted buttered popcorn.",
+          "descriptionAm": "ከቅባት ጋር የተቀመመ ፖፕኮርን።",
+          "price": 50,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Popcorn%2C_Indiana.jpg/500px-Popcorn%2C_Indiana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 3,
+          "ingredientsEn": [
+            "Maize kernels",
+            "Butter or oil",
+            "Salt"
+          ],
+          "ingredientsAm": [
+            "የበቆሎ እንቁላል",
+            "ቅባ ወይም ዘይት",
+            "ጨዋታ"
+          ]
+        },
+        {
+          "id": "f13a4e4dc6b5",
+          "categoryId": "0a5d53e8579b",
+          "nameEn": "Dabo with Honey",
+          "nameAm": "ዳቦ ከማር ጋር",
+          "descriptionEn": "Warm traditional bread served with honey butter.",
+          "descriptionAm": "ሞቅሞቅ ባህላዊ ዳቦ ከማርና ከቅባት ጋር።",
+          "price": 60,
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Banana_bread_preparation_in_a_Dorze_village.jpg/500px-Banana_bread_preparation_in_a_Dorze_village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "available": true,
+          "spicy": false,
+          "sortOrder": 4,
+          "ingredientsEn": [
+            "Teff flour",
+            "Water",
+            "Butter",
+            "Honey"
+          ],
+          "ingredientsAm": [
+            "የጤፍ ዱቂቆ",
+            "ውሃ",
+            "ቅባ",
+            "ማር"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-29T13:45:55.527Z"
+}
