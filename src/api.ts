@@ -1,6 +1,7 @@
 import type { AdminData, MenuItem, PublicMenu } from './types'
 
 const TOKEN_KEY = 'harar-admin-token'
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/+$/, '')
 
 export const getToken = () => localStorage.getItem(TOKEN_KEY)
 export const setToken = (t: string) => localStorage.setItem(TOKEN_KEY, t)
@@ -13,7 +14,8 @@ async function request<T>(url: string, options: RequestInit = {}): Promise<T> {
   }
   const token = getToken()
   if (token) headers.Authorization = `Bearer ${token}`
-  const res = await fetch(url, { ...options, headers })
+  const apiUrl = url.startsWith('/api/') ? `${API_BASE_URL}${url}` : url
+  const res = await fetch(apiUrl, { ...options, headers })
   const data = await res.json().catch(() => ({}))
   if (!res.ok) {
     throw new Error((data as { error?: string }).error || `Request failed (${res.status})`)
@@ -102,7 +104,7 @@ export const api = {
     const headers: Record<string, string> = {}
     const token = getToken()
     if (token) headers.Authorization = `Bearer ${token}`
-    const res = await fetch('/api/upload', { method: 'POST', body: form, headers })
+    const res = await fetch(`${API_BASE_URL}/api/upload`, { method: 'POST', body: form, headers })
     const data = await res.json().catch(() => ({}))
     if (!res.ok) throw new Error((data as { error?: string }).error || 'Upload failed')
     return data as { url: string }
